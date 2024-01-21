@@ -19,7 +19,7 @@ class App {
 
     public static String toString(Map<String, Integer> wordsCount) {
         var words = wordsCount.keySet().stream().sorted().toList();
-        
+
         if (words.isEmpty()) {
             return "{}";
         }
